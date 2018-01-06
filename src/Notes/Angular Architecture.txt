@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Angular Architecture
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Component: (Its is a Custom HTML Tag that can be re-used anywhere.)
+  It is something that has follows:
+  1. Component has a Template or a Class.
+  2. Component has Metadata - Property and Function
+  3. Component has a HTML View
+
+Note: Angular is a Component based Architecture.
+
+Directive: This is to add some extra functionality to an existing HTML tag.
+
+Services: This are the
+
+
+
+Angular Module:
+  Angular Module will contain info about all directives, services, Components and any third party library which we want to use or used.
