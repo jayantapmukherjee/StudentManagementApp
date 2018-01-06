@@ -14,6 +14,20 @@ Directive: This is to add some extra functionality to an existing HTML tag.
 Services: This are the
 
 
-
 Angular Module:
   Angular Module will contain info about all directives, services, Components and any third party library which we want to use or used.
+
+Any Angular application should have atleast 1 module and that has to be a Root Module.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+properties:
+
+decorators: It adds some extra fuctionality to a class.
+
+NgModule: Its a decorator that will make a Normal Typescript file/class to denote a class as a Module vs a vanilla Typescript class.
+
+properties:
+  1. declarations: In this Property we need to register Components, Directives and Pipes.
+  2. imports:      In this Property we need to register any third-party libraries in the application.
+                      BrowserModule is required to run the application on a Browser.
+  3. providers:    In this Property we need to register Angular Services.
+  4. bootstrap:    In this Property we need to register the Root Component.
